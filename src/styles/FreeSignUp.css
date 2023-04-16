@@ -1,0 +1,18 @@
+.sign-up-btn {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #795efd, #3619c9);
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem;
+  margin-left: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 250px;
+}
+.sign-up-btn:hover{
+  opacity: 0.75;
+}
+.sign-up-text {
+  margin: 0 0.5rem;
+  font-weight: 600;
+}
