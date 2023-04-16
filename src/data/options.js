@@ -1,10 +1,14 @@
 import { ReactComponent as CodeIcon } from "../assets/code.svg";
+import { ReactComponent as ConvertIcon } from "../assets/convert.svg";
+import { ReactComponent as RegexIcon } from "../assets/regex.svg";
+import { ReactComponent as GrammarIcon } from "../assets/grammar.svg";
+import { ReactComponent as TodoIcon } from "../assets/todo.svg";
 export const options = [
   { Icon: CodeIcon, name: "Explain Code" },
-  { Icon: CodeIcon, name: "Regex" },
-  { Icon: CodeIcon, name: "Convert Code" },
-  { Icon: CodeIcon, name: "Fix Grammar" },
-  { Icon: CodeIcon, name: "Todo" },
+  { Icon: RegexIcon, name: "Regex" },
+  { Icon: ConvertIcon, name: "Convert Code" },
+  { Icon: GrammarIcon, name: "Fix Grammar" },
+  { Icon: TodoIcon, name: "Todo" },
 ];
 export const optionData = [
   {

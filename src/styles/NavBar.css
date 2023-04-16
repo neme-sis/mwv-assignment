@@ -130,7 +130,7 @@
   .links-absolute {
     position: fixed;
     display: none;
-    top: 52px;
+    top: 51px;
     /* transform: translateY(100%); */
     background-color: white;
     width: 100%;

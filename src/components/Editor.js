@@ -51,7 +51,7 @@ const Editor = () => {
                 setDataSummary([]);
               }}
             >
-              <Icon fill="#381BCB" width={25} />
+              <Icon fill="#381BCB" width={25} height={30}/>
               <p>{name}</p>
             </div>
           ))}
