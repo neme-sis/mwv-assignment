@@ -170,6 +170,13 @@
 .free-sign-up p {
   font-size: 1.25rem;
 }
+.editor-wrapper-background-img {
+  width: max(8.5vw , 130px);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-42%);
+}
 
 @media screen and (max-width: 700px) {
   .editor-modal {

@@ -19,10 +19,10 @@ const NavBar = () => {
   return (
     <div className="navbar-wrapper">
       {/* {doesNavShow && <div className="links-show-all-hide"></div>} */}
-      <img src={navIcon} className="navbar-icon" />
+      <img src={navIcon} className="navbar-icon" alt="" />
       <nav>
         <div className="logo">
-          <img src={logoIcon} className="logo-icon" />
+          <img src={logoIcon} className="logo-icon" alt="" />
           <h1 className="logo-name">Enhance AI</h1>
         </div>
         <div
@@ -62,7 +62,7 @@ const NavBar = () => {
           <div className="bar bar3"></div>
         </div>
       </nav>
-      <img src={navSubIcon} className="nav-sub-icon" />
+      <img src={navSubIcon} className="nav-sub-icon" alt="" />
     </div>
   );
 };

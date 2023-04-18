@@ -4,14 +4,12 @@ import EditorLeft from "./EditorLeft";
 import EditorRight from "./EditorRight";
 import { options } from "../data/options";
 import FreeSignUp from "./FreeSignUp";
+import shape1 from "../assets/shape1.png";
 
 const showCaseData = [
   "The code above is a function definition",
-  "It defines a new function called HelloWorld that takes a single \
-    argument called 'text'.",
-  "The body of the function is a single line of code that prints out \
-    the value of 'text' if it is defined, or 'Hello World' if it is \
-    not defined",
+  "It defines a new function called HelloWorld that takes a single argument called 'text'.",
+  "The body of the function is a single line of code that prints out the value of 'text' if it is defined, or 'Hello World' if it is not defined",
 ];
 
 const Editor = () => {
@@ -25,6 +23,7 @@ const Editor = () => {
   return (
     <div className="editor-wrapper">
       <div className="editor-wrapper-background">
+        <img src={shape1} alt="" className="editor-wrapper-background-img"/>
         <div></div>
         <div></div>
       </div>
@@ -51,7 +50,7 @@ const Editor = () => {
                 setDataSummary([]);
               }}
             >
-              <Icon fill="#381BCB" width={25} height={30}/>
+              <Icon fill="#381BCB" width={25} height={30} />
               <p>{name}</p>
             </div>
           ))}
